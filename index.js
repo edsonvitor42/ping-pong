@@ -82,9 +82,9 @@ function updatePoints(context) {
         state.players['player2'].points += 1
     }
 
-    context.font = '20px Arial';
+    context.font = '30px Arial';
     context.textAlign = 'center';
-    context.fillText(`${state.players['player1'].points}  |  ${state.players['player2'].points}`, screenWidth/2, 30);
+    context.fillText(`${state.players['player1'].points}  |  ${state.players['player2'].points}`, screenWidth/2, 45);
 }
 
 function createGame() {
