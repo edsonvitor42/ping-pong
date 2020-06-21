@@ -90,8 +90,6 @@ function updatePoints(context) {
 function createGame() {
     const movePlayer = (command) => {
         const { playerId, keyPressed } = command;
-        console.log(`O jogador logado é ${playerId} efetuando a ação ${keyPressed}`);
-
         const allowedActions = {
             'ArrowUp': () => {
                 if ((state.players[playerId].position.y - PLAYERS.MOVEMENT_SPEED) < 0) {
