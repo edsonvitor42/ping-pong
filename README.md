@@ -1,9 +1,11 @@
 
 # 🏓 Ping Pong arcade game
 [![Languages](https://img.shields.io/github/languages/count/edsonvitor42/ping-pong?color=%2334CB79)](#)
+
+<br>
 Inspirado no clássico [Pong arcade](https://pt.wikipedia.org/wiki/Pong), recriado com javaScript.
 
-<img src="screen.png" />
+<img src="screen.png" width="50" />
 
 Para acessar a aplicação [clique](https://edsonvitor42.github.io/ping-pong/index.html) aqui.
 
